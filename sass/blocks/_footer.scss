@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    padding: 25px 0 5px 0;
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        width: 970px;
+        height: 40px;
+        background: #78bbe6;
+        border-radius: 5px;
+    }
+    &__text {
+        display: block;
+        color: #000000;
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: 400;
+        margin: 0 10px 0 10px;
+    }
+    &__contact {
+        display: block;
+        color: #000000;
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: 400;
+        margin: 0 20px 0 10px;
+        &:hover {
+            color: #FF0000;
+        }
+    }
+}

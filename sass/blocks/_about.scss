@@ -1,0 +1,69 @@
+.about {
+    display: flex;
+    padding: 5px 0 25px 0;
+    min-height: 600px;
+    &__text {
+        width: 970px;
+        padding: 0 7px 0 7px;
+        text-align: justify;
+        font-weight: 400;
+        font-size: 16px ;
+        line-height: 24px;
+        &_sert {
+            font-size: 14px ;
+        }
+    }
+    &__tel {
+        display: block;
+        color: #000000;
+    }
+    &__mail {
+        display: block;
+        color: #000000;
+    }
+    &__products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__link {
+        width: 180px;
+        height: 100%;
+        img {
+            // display: block;
+            margin: auto 0;
+            padding: 20px 20px 10px 20px;
+            width: 100%;
+            height: 100%;            
+        }        
+    }
+    &__img {
+        padding-top: 0px;
+        width:100%;
+        height: 120px;
+        border-radius: 10px;
+    }
+    &__foto {
+        display: flex;
+        width: 100%;
+        height: 120px;
+        border-radius: 10px;
+        // background: #fff;
+        background:  #78bbe6;
+        justify-content: flex-end;
+        &__company {
+            height: 100%;    
+        }
+    }
+    
+}
+h2 {
+    // margin-left: 5px;
+    font-weight: 700;
+    font-size: 24px ;
+}
+h3 {
+    font-weight: 700;
+    font-size: 20px ;
+}

@@ -1,0 +1,21 @@
+TABLE { background-color:#F8F8F8;
+	border-color:#223344; border-width:1px; border-collapse: collapse;
+	text-align:left; empty-cells: show;
+}
+
+TABLE.MN { background-color:transparent;
+	border-color:#223344; border-width:1px; border-collapse: collapse;
+	text-align:left; empty-cells: show;
+}
+
+TABLE.PAGETOP {
+	width: 800px; border: 0; border-style: none; border-collapse: collapse;
+}
+
+TABLE.TBL { display: table;
+	border: 1px solid #223344; 
+	text-align:left; empty-cells: show; 
+}
+
+TABLE.TBL TR TH { border: 1px; border-style:solid; }
+TABLE.TBL TR TD { border: 1px; border-style:solid; }

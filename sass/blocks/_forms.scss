@@ -1,0 +1,33 @@
+.feed-form {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    input {
+        height: 30px;
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    textarea {
+        height: 150px;
+        width: 500px;
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 15px;
+        resize: none;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        border: none;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+}
